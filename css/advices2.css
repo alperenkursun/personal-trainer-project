@@ -1,0 +1,70 @@
+#advices2 {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#advices2 #advices2-lr {
+  display: flex;
+  margin: 10rem 1rem;
+}
+
+#advices2 #advices2-lr #advices2-left {
+  flex: 66.66%;
+}
+
+#advices2 #advices2-lr #advices2-left h2 {
+  font-size: 4rem;
+  font-weight: 500;
+  margin: 2rem 0;
+  color: var(--second-color);
+}
+
+#advices2 #advices2-lr #advices2-left h2:hover {
+  opacity: 0.9;
+}
+
+#advices2 #advices2-lr #advices2-left p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 2rem 0;
+  color: var(--third-color);
+}
+
+#advices2 #advices2-lr #advices2-left p:hover {
+  opacity: 0.9;
+}
+
+#advices2 #advices2-lr #advices2-left a {
+  font-size: 1.5rem;
+  color: var(--third-color);
+  border: 1px solid var(--second-color);
+  padding: 1rem;
+  letter-spacing: 1.2px;
+  margin: 1rem 0;
+  display: inline-block;
+  border-radius: 0.5rem;
+}
+
+#advices2 #advices2-lr #advices2-left a:hover {
+  background-color: var(--first-color);
+  color: var(--fourth-color);
+  transition: all ease-out 0.4s;
+}
+
+#advices2 #advices2-lr #advices2-right {
+  flex: 33.3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#advices2 #advices2-lr #advices2-right img {
+  width: 20rem;
+}
+
+#advices2 #advices2-lr #advices2-right img:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}

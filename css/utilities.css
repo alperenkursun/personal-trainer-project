@@ -1,0 +1,18 @@
+:root {
+  --first-color: #a7d129;
+  --second-color: #616f39;
+  --third-color: #3e432e;
+  --fourth-color: #000;
+}
+
+.max-container {
+  max-width: 1000px !important;
+}
+
+.container {
+  width: 900px;
+}
+
+.margin {
+  margin: 0 auto;
+}

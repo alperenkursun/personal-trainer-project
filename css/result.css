@@ -1,0 +1,36 @@
+#results .result img {
+  border-radius: 0;
+  width: 20rem !important;
+}
+
+#results {
+  margin-top: 15rem;
+  margin-bottom: 5rem;
+}
+
+.result {
+  margin: 5rem 0;
+  display: flex;
+  color: #fff;
+  font-size: 1.5rem;
+  background-color: var(--third-color);
+  border-radius: 50%;
+}
+
+.result img {
+  display: block;
+  flex: 2;
+}
+
+.result .result-right {
+  display: block;
+  flex: 7;
+  margin: auto 3rem;
+  text-align: center;
+}
+
+.result .result-right h4 {
+  font-size: 2.4rem;
+  padding: 1rem 0;
+  font-weight: 400;
+}

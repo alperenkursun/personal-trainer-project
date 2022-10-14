@@ -1,0 +1,37 @@
+#about {
+  margin-top: 20rem;
+  margin-bottom: 14rem;
+  color: var(--third-color);
+  text-align: center;
+}
+
+#about div {
+  display: inline-block;
+  word-break: break-all;
+  white-space: normal;
+}
+
+#about div h1 {
+  font-size: 5rem;
+  margin-bottom: 2.1rem;
+  text-align: center;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+#about div h1:hover {
+  color: var(--fourth-color);
+  transition: color 0.4;
+}
+
+#about div p {
+  font-size: 1.5rem;
+  text-align: start;
+  text-align: center;
+  margin: 0 1.5rem;
+}
+
+#about div p:hover {
+  color: var(--fourth-color);
+  transition: color 0.4;
+}

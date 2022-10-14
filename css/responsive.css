@@ -1,0 +1,240 @@
+@media (max-width: 991px) {
+  /*header-start*/
+  html {
+    font-size: 9px;
+  }
+  header {
+    opacity: 0.99;
+  }
+  header label {
+    display: initial;
+  }
+
+  header nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--third-color);
+    display: none;
+    margin: 0;
+  }
+
+  header nav a {
+    background: var(--third-color);
+    color: var(--first-color) !important;
+    border-bottom: 1px solid var(--first-color);
+  }
+
+  header nav ul li ul li a {
+    background-color: var(--second-color);
+  }
+
+  header nav ul li {
+    width: 100%;
+  }
+
+  header nav ul li ul {
+    position: relative;
+    width: 100%;
+  }
+
+  header nav ul li ul li {
+    background: #eee;
+  }
+
+  #menu-bar:checked ~ nav {
+    display: initial;
+  }
+  /*header-end*/
+
+  /*advices-start*/
+  #advices #advices-bottom {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 3rem;
+  }
+  /*advices-end*/
+
+  /*footer-start*/
+  footer #footer-up {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  /*footer-end*/
+
+  #contacts {
+    display: block !important;
+  }
+
+  #contacts-left {
+    margin: 0 2rem;
+  }
+
+  #contacts-right {
+    margin: 4rem;
+    text-align: center;
+  }
+
+  #blogs {
+    grid-template-columns: repeat(2, 1fr) !important;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  #blogs #viewmores {
+    grid-column-start: 1 !important;
+    grid-column-end: 3 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #blogs #viewmores #viewmore {
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 7px;
+  }
+
+  #blogs {
+    display: block !important;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  #blogs .blog {
+    margin-top: 3rem;
+  }
+
+  #blogs #viewmores {
+    margin-top: 3rem !important;
+  }
+
+  #blogs #d #contacts {
+    display: block !important;
+    text-align: center !important;
+  }
+
+  #contacts-left {
+    margin: 0 2rem;
+    text-align: center !important;
+  }
+
+  #contacts-right {
+    margin: 4rem;
+    text-align: center;
+  }
+
+  input[value="SUBMIT"] {
+    width: 100% !important;
+  }
+
+  #contacts-left #namesurname {
+    display: block !important;
+  }
+
+  #contacts-left #namesurname input {
+    margin-top: 2rem;
+    width: 100% !important;
+  }
+
+  #pt {
+    display: block !important;
+  }
+
+  #premium-plus {
+    top: 0 !important;
+  }
+
+  #premium {
+    top: 0 !important;
+  }
+
+  #standart {
+    top: 0 !important;
+  }
+
+  .card {
+    margin-top: 3rem !important;
+  }
+
+  .card:hover {
+    transform: translateY(0) !important;
+  }
+
+  /*advices-start*/
+  #advices #advices-bottom {
+    grid-template-columns: 1fr !important;
+    gap: 3rem;
+  }
+  /*advices-end*/
+
+  /*advices2-start*/
+  #advices2 #advices2-lr #advices2-right img {
+    display: none;
+  }
+
+  #advices2 #advices2-lr #advices2-right {
+    flex: 0% !important;
+  }
+
+  #advices2 #advices2-lr #advices2-left {
+    flex: 100% !important;
+    text-align: center;
+  }
+  /*advices2-end*/
+
+  /*footer-start*/
+  footer #footer-up {
+    grid-template-columns: 1fr !important;
+  }
+  /*footer-end*/
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 6px;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 5px;
+  }
+}
+
+@media (max-width: 1100px) {
+  #dumbbell {
+    display: none;
+  }
+
+  #running {
+    display: none;
+  }
+
+  #apple {
+    display: none;
+  }
+}
+
+@media (max-width: 1350px) {
+  #dumbbell {
+    display: none;
+  }
+
+  #running {
+    display: none;
+  }
+
+  #apple {
+    display: none;
+  }
+}

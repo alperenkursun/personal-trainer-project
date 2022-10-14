@@ -1,0 +1,54 @@
+@keyframes animation {
+  from {
+    top: 0;
+    left: 10rem;
+    color: white;
+    font-size: 3rem;
+  }
+
+  25% {
+    color: white;
+  }
+
+  50% {
+    color: var(--first-color);
+  }
+
+  100% {
+    left: 10rem;
+    top: 25rem;
+    color: var(--third-color);
+    font-size: 6rem;
+  }
+}
+
+#dumbbell {
+  position: absolute;
+  font-size: 5rem !important;
+  left: 10rem;
+  top: 25rem;
+  z-index: 9;
+  animation: animation 1.5s forwards ease-in, bounce 1.5s 1.4s forwards;
+}
+
+#running {
+  font-size: 5rem;
+  position: absolute;
+  left: 5rem;
+  top: 18rem;
+  animation: backInLeft;
+  animation-duration: 2s;
+  color: var(--second-color);
+  z-index: 9;
+}
+
+#apple {
+  position: absolute;
+  left: 17rem;
+  top: 14rem;
+  font-size: 4rem;
+  animation: bounceInDown;
+  animation-duration: 2s;
+  color: red;
+  z-index: 9;
+}

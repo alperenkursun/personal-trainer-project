@@ -1,0 +1,113 @@
+#advices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white !important;
+}
+
+#advices #advices-top {
+  text-align: center;
+  background-color: white !important;
+  margin: 10rem 0;
+  display: inline-block;
+}
+
+#advices #advices-top h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  color: var(--third-color);
+}
+
+#advices #advices-top p {
+  margin: 3rem 0;
+  font-size: 1.6rem;
+  color: var(--third-color);
+}
+
+#advices #advices-top p:hover {
+  color: var(--second-color);
+}
+
+#advices #advices-top h1 span {
+  color: var(--second-color);
+}
+
+#advices #advices-top h1 span:hover {
+  color: var(--first-color);
+  transition: color 0.3s;
+  font-size: 3.3rem;
+}
+
+#advices #advices-top ul {
+  text-align: center;
+  display: inline-block;
+}
+
+#advices #advices-top ul li {
+  color: var(--third-color);
+  font-size: 1.5rem;
+  text-align: start;
+  margin: 1.5rem 0;
+}
+
+#advices #advices-top ul li {
+  color: var(--third-color);
+  font-size: 1.5rem;
+  text-align: start;
+  margin: 1.5rem 0;
+}
+
+#advices #advices-top ul li:hover {
+  color: var(--second-color);
+}
+#advices #advices-top ul li i {
+  color: var(--first-color);
+}
+
+#advices #advices-bottom {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+#advices #advices-bottom .advices-bottom-item {
+  margin: 0 5rem;
+  position: relative;
+}
+
+#advices #advices-bottom .advices-bottom-item::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  z-index: 11;
+  background-color: var(--first-color);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  border-radius: 50%;
+}
+
+#advices #advices-bottom:hover .advices-bottom-item::after {
+  opacity: 0.1;
+  transition: opacity 0.5s;
+}
+
+#advices #advices-bottom .advices-bottom-item i {
+  font-size: 12rem;
+  color: var(--third-color);
+}
+
+#advices #advices-bottom .advices-bottom-item h3 {
+  margin: 2rem 0;
+  font-size: 2.4rem;
+  color: var(--third-color);
+}
+
+#advices #advices-bottom .advices-bottom-item p {
+  font-size: 1.5rem;
+  color: var(--third-color);
+}

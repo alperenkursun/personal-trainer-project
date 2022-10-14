@@ -1,0 +1,89 @@
+#blogs {
+  margin-top: 15rem;
+  margin-bottom: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.blog {
+  position: relative;
+  border: 1px dotted var(--third-color);
+  padding: 1rem;
+}
+
+#blogs span {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  color: white;
+  background-color: var(--first-color);
+  padding: 1rem;
+  font-size: 1.3rem;
+  border-radius: 100%;
+  font-weight: 400;
+}
+
+#blogs img {
+  border-radius: 0;
+}
+
+#blogs p {
+  color: var(--third-color);
+  letter-spacing: 0.05rem;
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+#blogs h4 {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.blog a {
+  font-size: 1.5rem;
+  color: var(--third-color);
+  background-color: transparent;
+  border: 1px solid var(--second-color);
+  padding: 1rem;
+  letter-spacing: 1.2px;
+  margin: 1rem 0 !important;
+  display: inline-block;
+  border-radius: 0.5rem;
+}
+
+.blog a:hover {
+  background-color: var(--first-color);
+  color: var(--fourth-color);
+  transition: all ease-out 0.4s;
+  cursor: pointer;
+}
+
+#blogs #viewmore {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  background-color: var(--second-color);
+  border: 1px solid var(--second-color);
+  padding: 1rem;
+  letter-spacing: 1.2px;
+  margin: 1rem 0 !important;
+  display: inline-block;
+  border-radius: 0.5rem;
+  grid-column: 2/3;
+}
+
+#viewmores {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#blogs #viewmore:hover {
+  background-color: var(--third-color);
+  color: white;
+  transition: all ease-out 0.4s;
+  cursor: pointer;
+}
