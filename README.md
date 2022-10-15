@@ -1,5 +1,5 @@
 # personal-trainer-project
 
-HTML - CSS Project
+HTML - CSS Responsive Project
 
 ![ptpimg](ptimg.png)
